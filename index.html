@@ -4,7 +4,6 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>CYBERSERVER | Consultoria Especializada em TI</title>
-    <link rel="icon" href="favicon.png">
     <link rel="stylesheet" href="style.css">
 </head>
 <body>
@@ -13,59 +12,50 @@
         <div class="container nav-content">
             <img src="favicon.png" alt="Logo" class="logo">
             <div class="menu">
-                <a href="#inicio">Início</a>
-                <a href="#solucoes">Soluções</a>
+                <a href="index.html">Início</a>
+                <a href="quem-somos.html">Quem Somos</a>
                 <a href="https://wa.me/5517991672067" class="btn-primary" target="_blank">Fale com um Especialista</a>
             </div>
         </div>
     </nav>
 
-    <header id="inicio" class="hero">
-        <div class="container hero-grid">
-            <div class="hero-text">
-                <h1>Infraestrutura de TI <br><span class="accent">de Alta Performance</span></h1>
-                <p>Projetamos, implementamos e monitoramos a espinha dorsal tecnológica do seu negócio com estabilidade absoluta.</p>
-                <a href="https://wa.me/5517991672067" class="btn-primary" target="_blank">Solicitar Diagnóstico</a>
-            </div>
-            <img src="datacenter.jpg" alt="Infraestrutura de TI" class="hero-image">
-        </div>
-    </header>
-
     <section id="solucoes" class="services">
         <div class="container">
             <h2 class="section-title">Especialidades Técnicas</h2>
-           <div class="services-grid">
-              <div class="card">
-                  <h3>Redes & Infraestrutura</h3>
-                  <p>Projetos de rede de alta performance, cabeamento estruturado com certificação, organização de racks e implantação de Wi-Fi de alta densidade.</p>
-              </div>
-              <div class="card">
-                  <h3>Segurança Eletrônica</h3>
-                  <p>Instalação de câmeras IP de alta resolução, configuração de NVRs/DVRs e acesso remoto via smartphone para monitoramento em tempo real.</p>
-              </div>
-              <div class="card">
-                  <h3>Suporte e Manutenção</h3>
-                  <p>Manutenção preventiva completa: limpeza interna, troca de pasta térmica, otimização de hardware, formatação e upgrades de componentes.</p>
-              </div>
-              <div class="card">
-                  <h3>Sistemas e Periféricos</h3>
-                  <p>Configuração de redes de impressão, servidores de arquivos/impressão, administração de servidores Windows/Linux e ambientes virtualizados.</p>
-              </div>
-              <div class="card">
-                  <h3>Consultoria em Nuvem</h3>
-                  <p>Migração de dados para nuvem, configuração de backup em nuvem e gestão de contas Microsoft 365 ou Google Workspace.</p>
-              </div>
-              <div class="card">
-                  <h3>Projetos de Cibersegurança</h3>
-                  <p>Implementação de políticas de backup, firewalls, proteção contra malwares e conformidade básica com a LGPD para empresas.</p>
-              </div>
-          </div>
+            <div class="services-grid">
+                <!-- Cards -->
+                <div class="card"><h3>Redes & Infraestrutura</h3><p>Projetos de alta performance e cabeamento estruturado.</p><a href="#modal-redes" class="btn-detalhes">Ver detalhes técnicos +</a></div>
+                <div class="card"><h3>Segurança Eletrônica</h3><p>Câmeras IP com monitoramento remoto inteligente.</p><a href="#modal-seguranca" class="btn-detalhes">Ver detalhes técnicos +</a></div>
+                <div class="card"><h3>Suporte e Manutenção</h3><p>Manutenção preventiva para máxima vida útil do hardware.</p><a href="#modal-suporte" class="btn-detalhes">Ver detalhes técnicos +</a></div>
+                <div class="card"><h3>Sistemas e Periféricos</h3><p>Gestão completa de servidores e ambientes virtualizados.</p><a href="#modal-sistemas" class="btn-detalhes">Ver detalhes técnicos +</a></div>
+                <div class="card"><h3>Consultoria em Nuvem</h3><p>Modernização com backup redundante e colaboração.</p><a href="#modal-nuvem" class="btn-detalhes">Ver detalhes técnicos +</a></div>
+                <div class="card"><h3>Projetos de Cibersegurança</h3><p>Proteção rigorosa contra ameaças e conformidade LGPD.</p><a href="#modal-ciber" class="btn-detalhes">Ver detalhes técnicos +</a></div>
+            </div>
         </div>
     </section>
 
-    <a href="https://wa.me/5517991672067" class="whatsapp-btn" target="_blank">
-        <img src="whats.png" alt="WhatsApp">
-    </a>
+    <!-- MODAIS ESTILO AULA TÉCNICA -->
+    <div id="modal-redes" class="modal"><div class="modal-content"><span class="close-btn">&times;</span><h2>Redes: A Espinha Dorsal</h2><p>Infraestrutura é engenharia. Uma falha de 1% aqui gera gargalos invisíveis.</p><ul><li><strong>Certificação:</strong> Validamos impedância e sinal para garantir throughput máximo.</li><li><strong>Zero Trust:</strong> Segmentamos a rede em VLANs para isolar dados críticos.</li><li><strong>Gestão Térmica:</strong> Racks organizados não são estética, são ventilação e longevidade.</li></ul></div></div>
+    
+    <div id="modal-seguranca" class="modal"><div class="modal-content"><span class="close-btn">&times;</span><h2>Segurança: Visão Inteligente</h2><p>Não instalamos apenas câmeras, entregamos sistemas de monitoramento proativo.</p><ul><li><strong>Streaming Seguro:</strong> Fluxos criptografados para garantir que só você veja seus dados.</li><li><strong>Redundância:</strong> Armazenamento cíclico que protege contra falhas de disco.</li><li><strong>Foco:</strong> Projeto focado em eliminar "pontos cegos" de segurança física.</li></ul></div></div>
+    
+    <div id="modal-suporte" class="modal"><div class="modal-content"><span class="close-btn">&times;</span><h2>Suporte: Ciência de Hardware</h2><p>Tratamos o hardware com o rigor técnico que ele exige.</p><ul><li><strong>Termodinâmica:</strong> Troca de pasta térmica de alta performance para eliminar thermal throttling.</li><li><strong>Limpeza Química:</strong> Remoção de contaminantes que causam micro-curtos.</li><li><strong>Diagnóstico:</strong> Testes de stress que revelam falhas antes da parada total.</li></ul></div></div>
+    
+    <div id="modal-sistemas" class="modal"><div class="modal-content"><span class="close-btn">&times;</span><h2>Sistemas: Orquestração Digital</h2><p>Servidor parado é operação interrompida. Nossa gestão é focada em disponibilidade.</p><ul><li><strong>Virtualização:</strong> Maximizamos o uso do seu hardware com isolamento de serviços.</li><li><strong>Proatividade:</strong> Monitoramos saúde de disco e CPU para agir antes da falha.</li><li><strong>Estabilidade:</strong> Fluxos centralizados para redes de impressão e arquivos.</li></ul></div></div>
+    
+    <div id="modal-nuvem" class="modal"><div class="modal-content"><span class="close-btn">&times;</span><h2>Nuvem: Escalabilidade Segura</h2><p>Migrar para nuvem é sobre otimizar o acesso e garantir a integridade do dado.</p><ul><li><strong>Migração Transparente:</strong> Transição para M365 ou Google Workspace sem down-time.</li><li><strong>Backup 3-2-1:</strong> Protocolo rigoroso de segurança de dados em nuvem.</li><li><strong>Colaboração:</strong> Unificação de ferramentas para times de alta performance.</li></ul></div></div>
+    
+    <div id="modal-ciber" class="modal"><div class="modal-content"><span class="close-btn">&times;</span><h2>Cibersegurança: Rigor Técnico</h2><p>O ambiente digital é hostil. Defesa precisa ser estratégica, não reativa.</p><ul><li><strong>Hardening:</strong> Travamento de servidores contra vetores de ataque comuns.</li><li><strong>Firewall Perimeter:</strong> Barreira física e lógica para tráfego indesejado.</li><li><strong>Conformidade:</strong> Adequação técnica rigorosa às normas da LGPD.</li></ul></div></div>
 
+    <script>
+        const modais = document.querySelectorAll('.modal');
+        function fecharModais() { modais.forEach(m => m.style.display = 'none'); }
+        document.querySelectorAll('.close-btn').forEach(btn => btn.onclick = fecharModais);
+        window.onclick = function(e) { if (e.target.classList.contains('modal')) fecharModais(); };
+        document.onkeydown = function(e) { if (e.key === "Escape") fecharModais(); };
+        document.querySelectorAll('.btn-detalhes').forEach(btn => {
+            btn.onclick = function(e) { e.preventDefault(); document.querySelector(this.getAttribute('href')).style.display = 'flex'; };
+        });
+    </script>
 </body>
 </html>
