@@ -1,157 +1,71 @@
 <!DOCTYPE html>
 <html lang="pt-br">
 <head>
-  <meta charset="UTF-8" />
-  <meta name="viewport" content="width=device-width, initial-scale=1" />
-  <title>CYBERSERVER Soluções em Tecnologia</title>
-  <meta name="description" content="Infraestrutura, servidores, redes e cibersegurança com foco em desempenho e confiabilidade." />
-  <link rel="icon" href="assets/favicon.png" />
-  <link rel="stylesheet" href="style.css" />
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>CYBERSERVER | Consultoria Especializada em TI</title>
+    <link rel="icon" href="favicon.png">
+    <link rel="stylesheet" href="style.css">
 </head>
 <body>
-  <!-- Loader -->
-  <div id="loader" aria-live="polite">
-    <span id="typing"></span><span class="cursor">|</span>
-  </div>
 
-  <!-- Header -->
-  <header class="header">
-    <div class="container header-inner">
-      <a class="brand" href="#">
-        <img src="assets/logo.png" class="logo" alt="Logo CYBERSERVER" />
-        <strong>CYBERSERVER</strong>
-      </a>
-
-      <button id="menu-toggle" aria-label="Abrir menu">☰</button>
-
-    <nav id="nav-menu">
-  <a href="#servicos">Serviços</a>
-  <a href="#resultados">Resultados</a>
-  <a href="#destaques">Destaques</a>
-  <a class="btn" href="https://guilhermepires.pythonanywhere.com/login" target="_blank" rel="noopener">ERP</a>
-</nav>
-      </nav>
-    </div>
-  </header>
-
-  <!-- Hero -->
-  <section class="hero">
-    <img src="assets/fundo.png" alt="Datacenter moderno" class="hero-bg" />
-    <div class="hero-overlay"></div>
-    <div class="hero-copy container">
-      <h1>Infraestrutura e Segurança para crescer com confiança</h1>
-      <p>Projetos de TI sob medida, com desempenho, estabilidade e proteção.</p>
-      <div class="cta">
-        <a href="#servicos" class="btn ghost">Ver serviços</a>
-      </div>
-    </div>
-  </section>
-
-  <main>
-    <!-- Serviços -->
-    <section id="servicos" class="section fade-up">
-      <div class="container">
-        <h2>Nossos Serviços</h2>
-        <div class="cards">
-          <article class="card"><h3>Servidores</h3><p>Implantação, hardening e monitoramento 24/7.</p></article>
-          <article class="card"><h3>Firewalls</h3><p>Políticas, VPN, IDS/IPS e proteção ativa.</p></article>
-          <article class="card"><h3>Redes</h3><p>Switches, VLANs e Wi-Fi corporativo de alta disponibilidade.</p></article>
-          <article class="card"><h3>Cloud &amp; VM</h3><p>Virtualização, custos otimizados e observabilidade.</p></article>
-          <article class="card"><h3>Backup &amp; DR</h3><p>Estratégia 3-2-1 e testes de restauração.</p></article>
-          <article class="card"><h3>Suporte</h3><p>SLA, inventário e automações para o seu time.</p></article>
+    <nav class="navbar">
+        <div class="container nav-content">
+            <img src="favicon.png" alt="Logo" class="logo">
+            <div class="menu">
+                <a href="#inicio">Início</a>
+                <a href="#solucoes">Soluções</a>
+                <a href="https://wa.me/5517991672067" class="btn-primary" target="_blank">Fale com um Especialista</a>
+            </div>
         </div>
-      </div>
-    </section>
+    </nav>
 
-    <!-- Resultados -->
-    <section id="resultados" class="section fade-up metrics">
-      <div class="container">
-        <h2>Resultados e Métricas</h2>
-        <div class="metrics-grid">
-          <div class="metric"><span class="icon">⚙️</span><div class="meta"><p class="number" data-target="150">0</p><h3>Servidores configurados</h3></div></div>
-          <div class="metric"><span class="icon">☁️</span><div class="meta"><p class="number" data-target="800">0</p><h3>Ambientes Cloud gerenciados</h3></div></div>
-          <div class="metric"><span class="icon">🔒</span><div class="meta"><p class="number" data-target="1200">0</p><h3>Incidentes prevenidos</h3></div></div>
-          <div class="metric"><span class="icon">🕒</span><div class="meta"><p class="number" data-target="99.9">0</p><h3>Uptime médio garantido (%)</h3></div></div>
+    <header id="inicio" class="hero">
+        <div class="container hero-grid">
+            <div class="hero-text">
+                <h1>Infraestrutura de TI <br><span class="accent">de Alta Performance</span></h1>
+                <p>Projetamos, implementamos e monitoramos a espinha dorsal tecnológica do seu negócio com estabilidade absoluta.</p>
+                <a href="https://wa.me/5517991672067" class="btn-primary" target="_blank">Solicitar Diagnóstico</a>
+            </div>
+            <img src="datacenter.jpg" alt="Infraestrutura de TI" class="hero-image">
         </div>
-      </div>
-    </section>
+    </header>
 
-    <!-- Destaques -->
-    <section id="destaques" class="section fade-up">
-      <div class="container">
-        <h2>Serviços em Destaque</h2>
-        <div class="plans">
-          <div class="plan destaque">
-            <div class="badge">MUITO PROCURADO</div>
-            <h3>Manutenção &amp; Limpeza de PCs</h3>
-            <ul>
-              <li>Limpeza interna completa</li>
-              <li>Troca de pasta térmica</li>
-              <li>Formatação e otimização</li>
-              <li>Remoção de vírus e malware</li>
-            </ul>
-            <a class="btn" target="_blank" href="https://wa.me/5517991672067?text=Ol%C3%A1!%20Gostaria%20de%20solicitar%20Manuten%C3%A7%C3%A3o%20%26%20Limpeza%20de%20PCs.">Solicitar atendimento</a>
-          </div>
-
-          <div class="plan">
-            <h3>Configuração de Servidores &amp; Roteadores</h3>
-            <ul>
-              <li>Instalação e hardening de servidores</li>
-              <li>AD, DNS e compartilhamentos</li>
-              <li>Roteadores, VLANs e QoS</li>
-              <li>Backup e monitoramento básico</li>
-            </ul>
-            <a class="btn small" target="_blank" href="https://wa.me/5517991672067?text=Ol%C3%A1!%20Gostaria%20de%20solicitar%20Configura%C3%A7%C3%A3o%20de%20Servidores%20%26%20Roteadores.">Quero este</a>
-          </div>
-
-          <div class="plan">
-            <h3>Firewalls &amp; Segurança</h3>
-            <ul>
-              <li>Políticas e segmentação</li>
-              <li>VPN site-to-site e usuário</li>
-              <li>IPS/IDS e relatórios</li>
-              <li>Resposta a incidentes</li>
-            </ul>
-            <a class="btn small" target="_blank" href="https://wa.me/5517991672067?text=Ol%C3%A1!%20Gostaria%20de%20falar%20sobre%20Firewalls%20%26%20Seguran%C3%A7a.">Falar com especialista</a>
+    <section id="solucoes" class="services">
+        <div class="container">
+            <h2 class="section-title">Especialidades Técnicas</h2>
+           <div class="services-grid">
+              <div class="card">
+                  <h3>Redes & Infraestrutura</h3>
+                  <p>Projetos de rede de alta performance, cabeamento estruturado com certificação, organização de racks e implantação de Wi-Fi de alta densidade.</p>
+              </div>
+              <div class="card">
+                  <h3>Segurança Eletrônica</h3>
+                  <p>Instalação de câmeras IP de alta resolução, configuração de NVRs/DVRs e acesso remoto via smartphone para monitoramento em tempo real.</p>
+              </div>
+              <div class="card">
+                  <h3>Suporte e Manutenção</h3>
+                  <p>Manutenção preventiva completa: limpeza interna, troca de pasta térmica, otimização de hardware, formatação e upgrades de componentes.</p>
+              </div>
+              <div class="card">
+                  <h3>Sistemas e Periféricos</h3>
+                  <p>Configuração de redes de impressão, servidores de arquivos/impressão, administração de servidores Windows/Linux e ambientes virtualizados.</p>
+              </div>
+              <div class="card">
+                  <h3>Consultoria em Nuvem</h3>
+                  <p>Migração de dados para nuvem, configuração de backup em nuvem e gestão de contas Microsoft 365 ou Google Workspace.</p>
+              </div>
+              <div class="card">
+                  <h3>Projetos de Cibersegurança</h3>
+                  <p>Implementação de políticas de backup, firewalls, proteção contra malwares e conformidade básica com a LGPD para empresas.</p>
+              </div>
           </div>
         </div>
-      </div>
     </section>
 
-    <!-- Contato -->
-    <section id="contato" class="section fade-up">
-      <div class="container">
-        <h2>Fale com a gente</h2>
-        <form class="form" id="formContato" onsubmit="return sendWhats(event)">
-          <div class="grid">
-            <label>Nome <input id="fNome" name="nome" required placeholder="Seu nome completo" /></label>
-            <label>E-mail <input id="fEmail" type="email" name="email" required placeholder="exemplo@dominio.com" /></label>
-            <label>Telefone <input id="fFone" type="tel" name="fone" required placeholder="(00) 00000-0000" /></label>
-            <label>Empresa <input id="fEmpresa" name="empresa" placeholder="Opcional" /></label>
-          </div>
-          <label>Como podemos ajudar?
-            <textarea id="fMsg" name="mensagem" rows="5" required placeholder="Descreva brevemente o que precisa..."></textarea>
-          </label>
-          <div class="actions">
-            <button class="btn" type="submit">Enviar - WhatsApp</button>
-          </div>
-          <p id="form-status" class="form-status"></p>
-        </form>
-      </div>
-    </section>
-  </main>
+    <a href="https://wa.me/5517991672067" class="whatsapp-btn" target="_blank">
+        <img src="whats.png" alt="WhatsApp">
+    </a>
 
-  <!-- Footer -->
-  <footer class="footer">
-    <div class="container">
-      <p>© 2025 CYBERSERVER Soluções em Tecnologia — Todos os direitos reservados</p>
-    </div>
-  </footer>
-
-  <a id="whatsapp" href="https://wa.me/5517991672067" target="_blank" rel="noopener" aria-label="WhatsApp">
-    <img src="assets/whats.png" alt="WhatsApp" class="whatsapp-icon" />
-  </a>
-
-  <script src="script.js"></script>
 </body>
 </html>
